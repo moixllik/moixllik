@@ -1,16 +1,15 @@
-### Hi there 👋
+### I'm Irving Montalvo :wave:
 
-<!--
-**moixllik/moixllik** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+:mailbox: <a href="mailto:irving@muchik.net">irving @ muchik.net</a>
+:calling: [Telegram](https://t.me/moixllik)
 
-Here are some ideas to get you started:
+#### :mortar_board: CV
+**Linkedin:** [Irving Montalvo](https://www.linkedin.com/in/moixllik/)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### :rocket: Social
+**Tiktok::** [@moixllik](https://www.tiktok.com/@moixllik)
+**Twitter:** [@moixllik](https://twitter.com/moixllik)
+**Pinterest:** [@moixllik](https://www.pinterest.com/moixllik/)
+
+#### :video_game: Gaming
+**Steam:** [moixllik](https://steamcommunity.com/id/moixllik/)
