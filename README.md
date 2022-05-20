@@ -4,7 +4,8 @@
 
 :calling: [Telegram](https://t.me/moixllik)
 
-#### :mortar_board: CV
+#### :mortar_board: Education
+[Orcid](https://orcid.org/0000-0002-1926-6349) |
 [Linkedin](https://www.linkedin.com/in/moixllik/)
 
 #### :rocket: Social
