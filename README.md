@@ -5,8 +5,9 @@
 :calling: [Telegram](https://t.me/moixllik)
 
 ### Education
-[Orcid](https://orcid.org/0000-0002-1926-6349) |
-[Linkedin](https://www.linkedin.com/in/moixllik/)
+[Linkedin](https://www.linkedin.com/in/moixllik/) |
+[Google Dev](https://g.dev/moixllik) |
+[Orcid](https://orcid.org/0000-0002-1926-6349)
 
 ### Social and Gaming
 [Tiktok](https://www.tiktok.com/@moixllik) |
