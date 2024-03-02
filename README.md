@@ -2,7 +2,7 @@
 
 > Developer and Accountant
 
-![My Skills](https://skillicons.dev/icons?i=html,css,javascript,rust,docker,python,debian,bash,vim,vscode&perline=5)
+![My Skills](https://skillicons.dev/icons?i=html,css,javascript,rust,docker,python,debian,bash,vim,git&perline=5)
 
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=moixllik&layout=compact&theme=graywhite&hide_border=true)
