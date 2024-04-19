@@ -12,7 +12,7 @@
 ![Tools Skills](https://skillicons.dev/icons?i=debian,docker,bash,git,vscode)
 
 ### Other Skills
-![Other Skills](https://skillicons.dev/icons?i=python,markdown,haskell,nodejs,htmx)
+![Other Skills](https://skillicons.dev/icons?i=python,markdown,haskell,bun,react)
 
 ## More Information
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=moixllik&layout=compact&theme=graywhite&hide_border=true)
