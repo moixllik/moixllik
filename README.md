@@ -10,23 +10,7 @@
 </td>
 <td>
 
-<img alt="os" src="https://skillicons.dev/icons?i=linux,debian,redhat">
-
-<img alt="editor" src="https://skillicons.dev/icons?i=bash,vscode,neovim">
-
-<img alt="tool" src="https://skillicons.dev/icons?i=git,docker,arduino">
-
-<img alt="runtime" src="https://skillicons.dev/icons?i=nodejs,bun,wasm">
-
-<img alt="sql" src="https://skillicons.dev/icons?i=sqlite,postgres,mysql">
-
-<img alt="nosql" src="https://skillicons.dev/icons?i=mongo,cassandra,redis">
-
-<img alt="cloud" src="https://skillicons.dev/icons?i=cloudflare,googlecloud,aws">
-
-<img alt="microsoft" src="https://skillicons.dev/icons?i=windows,azure,dotnet">
-
-<img alt="other" src="https://skillicons.dev/icons?i=discord,blender,godot">
+<img alt="skill" src="https://skillicons.dev/icons?perline=3&theme=light&i=linux,debian,bash,vscode,neovim,git,docker,arduino,nodejs,bun,wasm,sqlite,postgres,mysql,mongo,redis,cloudflare,gcp,aws,azure,dotnet,discord,blender,godot">
 
 </td>
 <td rowspan="2">
