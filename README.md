@@ -5,7 +5,7 @@
     <blockquote>Developer and Accountant</blockquote>
 </td>
 <td>
-    <h3><a href="https://moixllik.github.io/moixllik/certificates">[Certificates]</a></h3>
+    <h3><a href="https://moixllik.github.io/moixllik/certificates">[ Certificates ]</a></h3>
 </td>
 </tr>
 <tr><td>
