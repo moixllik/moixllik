@@ -18,7 +18,7 @@
 </td>
 <td>
 
-<img alt="PICSUM" src="https://picsum.photos/200/320?grayscale">
+<img alt="PICSUM" src="https://picsum.photos/200/1200">
 
 </td>
 </tr>
