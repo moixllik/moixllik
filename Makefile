@@ -1,5 +1,8 @@
 all:
 	@echo "make [option]"
 
-test:
+build:
+	pandoc -o main.html README.md
+
+test: build
 	python3 -m http.server

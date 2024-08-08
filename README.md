@@ -10,12 +10,12 @@
 </tr>
 <tr><td>
 
-<img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moixllik&langs_count=20&layout=pie&theme=graywhite&hide_border=true&hide=jupyter%20notebook">
+<img alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moixllik&langs_count=20&layout=pie&theme=graywhite&hide_border=true&hide=jupyter%20notebook,coq,glsl,ampl,makefile">
 
 </td>
 <td>
 
-<img alt="skill" src="https://skillicons.dev/icons?perline=3&theme=light&i=linux,debian,bash,vscode,neovim,git,docker,arduino,nodejs,bun,wasm,sqlite,postgres,mysql,mongo,redis,cloudflare,gcp,aws,azure,dotnet,discord,blender,godot">
+<img alt="skill" src="https://skillicons.dev/icons?perline=3&theme=light&i=debian,bash,neovim,git,docker,nodejs,wasm,sqlite,postgres,mysql,mongo,redis,cloudflare,gcp,aws,azure,discord,blender">
 
 </td>
 <td rowspan="2">
