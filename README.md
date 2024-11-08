@@ -7,4 +7,8 @@
   <a href="#" alt="moixllik's github stats"><img src="https://github-readme-stats.vercel.app/api?username=moixllik&show_icons=true&icon_color=805AD5&text_color=718096&bg_color=ffffff&hide_title=true"/></a>
 </p>
 
-Projects: [moix.cc](https://moix.cc) | [nobit.cc](https://nobit.cc) | [thesis.lat](https://thesis.lat) | [words.trade](https://words.trade)
+[moix.cc](https://moix.cc) | 
+[nobit.cc](https://nobit.cc) | 
+[mylina.cc](https://mylina.cc) |
+[thesis.lat](https://thesis.lat) | 
+[words.trade](https://words.trade) |
