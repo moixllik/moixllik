@@ -8,22 +8,30 @@
 
 <!-- https://www.webfx.com/tools/emoji-cheat-sheet/ -->
 
-| Id  | Project                                   | Tongue | Description |
-| --- | ----------------------------------------- | ------ | ----------- |
-| 1   | :link: [MOIX.CC](https://moix.cc)         | ES     |
-| 2   | :link: [NOBIT.CC](https://nobit.cc)       | ES     |
-| 3   | :link: [MYLINA.CC](https://mylina.cc)     | ES, PT |
-| 4   | :link: [THESIS.LAT](https://thesis.lat)   | ES     |
-| 5   | :link: [WORDS.TRADE](https://words.trade) | ES     |
+| Id  | Project                                   | Tongue | Description                                                          |
+| --- | ----------------------------------------- | ------ | -------------------------------------------------------------------- |
+| 1   | :link: [MOIX.CC](https://moix.cc)         | ES     | Online game with stories told by users.                              |
+| 2   | :link: [NOBIT.CC](https://nobit.cc)       | ES     | Publication of research articles on computer science and accounting. |
+| 3   | :link: [MYLINA.CC](https://mylina.cc)     | ES, PT | Online store for women's products.                                   |
+| 4   | :link: [THESIS.LAT](https://thesis.lat)   | ES     | Automation of the thesis format of several universities.             |
+| 5   | :link: [WORDS.TRADE](https://words.trade) | ES     | Set of “Dashboards” with access to an API.                           |
   
 ## :star: Technologies used
 
-|                                                                             | Name       | Type        | Used At |
-| --------------------------------------------------------------------------- | ---------- | ----------- | ------- |
-| ![](https://icongr.am/simple/javascript.svg?size=16&color=ff7700&colored=false) | JavaScript | Language    | All     |
-| ![](https://icongr.am/simple/css3.svg?size=16&color=ff7700&colored=false) | CSS        | Language    | All     |
-| ![](https://icongr.am/simple/html5.svg?size=16&color=ff7700&colored=false) | HTML       | Language    | All     |
-| ![](https://icongr.am/simple/sqlite.svg?size=16&color=ff7700&colored=false) | SQL        | Language    | All     |
-| ![](https://icongr.am/simple/rust.svg?size=16&color=ff7700&colored=false)   | Rust       | Language    | 3, 5    |
-| ![](https://icongr.am/simple/python.svg?size=16&color=ff7700&colored=false) | Python     | Language    | 5       |
-| ![](https://icongr.am/simple/json.svg?size=16&color=ff7700&colored=false) | KV NoSQL   | Application | 5       |
+<!-- https://icongr.am/simple -->
+
+|                                                                                    | Name           | Type        | Used At | Details                  |
+| ---------------------------------------------------------------------------------- | -------------- | ----------- | ------- | ------------------------ |
+| ![](https://icongr.am/simple/javascript.svg?size=16&color=ff7700&colored=false)    | JavaScript     | Language    | All     | Web                      |
+| ![](https://icongr.am/simple/css3.svg?size=16&color=ff7700&colored=false)          | CSS            | Language    | All     | Web                      |
+| ![](https://icongr.am/simple/html5.svg?size=16&color=ff7700&colored=false)         | HTML           | Language    | All     | Web                      |
+| ![](https://icongr.am/simple/sqlite.svg?size=16&color=ff7700&colored=false)        | SQL            | Language    | All     | SQLite database          |
+| ![](https://icongr.am/simple/rust.svg?size=16&color=ff7700&colored=false)          | Rust           | Language    | 3, 5    | Microservices            |
+| ![](https://icongr.am/simple/python.svg?size=16&color=ff7700&colored=false)        | Python         | Language    | 5       | Automation, web scraping |
+| ![](https://icongr.am/simple/latex.svg?size=16&color=ff7700&colored=false)         | LaTeX          | Language    | 4       | Formatted                |
+| ![](https://icongr.am/simple/markdown.svg?size=16&color=ff7700&colored=false)      | Markdown       | Language    | 2, 4    | Formatted                |
+| ![](https://icongr.am/simple/gnubash.svg?size=16&color=ff7700&colored=false)       | Bash           | Language    | 4       | Automation               |
+| ![](https://icongr.am/simple/json.svg?size=16&color=ff7700&colored=false)          | KV NoSQL       | Application | 5       | Session, cache           |
+| ![](https://icongr.am/simple/githubactions.svg?size=16&color=ff7700&colored=false) | GitHub Actions | Application | 4       | Automation               |
+| ![](https://icongr.am/simple/telegram.svg?size=16&color=ff7700&colored=false)      | Telegram       | Application | 4       | Login, bots              |
+| ![](https://icongr.am/simple/stripe.svg?size=16&color=ff7700&colored=false)        | Stripe         | API         | All     | Payments, donations      |
