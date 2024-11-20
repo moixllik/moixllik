@@ -8,13 +8,13 @@
 
 <!-- https://www.webfx.com/tools/emoji-cheat-sheet/ -->
 
-|        | Project                            | Tongue | Description                                                          |
-| ------ | ---------------------------------- | ------ | -------------------------------------------------------------------- |
-| :link: | [WORDS.TRADE](https://words.trade) | EN     | Set of “Dashboards” with access to an API.                           |
-| :link: | [THESIS.LAT](https://thesis.lat)   | ES     | Automation of the thesis format of several universities.             |
-| :link: | [MOIX.CC](https://moix.cc)         | ES     | Online game with stories told by users.                              |
-| :link: | [NOBIT.CC](https://nobit.cc)       | ES     | Publication of research articles on computer science and accounting. |
-| :link: | [MYLINA.CC](https://mylina.cc)     | ES, PT | Online store for women's products.                                   |
+|        | Project                            | Tongue     | Description                                                          |
+| ------ | ---------------------------------- | ---------- | -------------------------------------------------------------------- |
+| :link: | [WORDS.TRADE](https://words.trade) | EN         | Set of Dashboards with access to an API.                             |
+| :link: | [THESIS.LAT](https://thesis.lat)   | EN         | Automation of the thesis format of several universities.             |
+| :link: | [MOIX.CC](https://moix.cc)         | ES         | Online game with stories told by users.                              |
+| :link: | [NOBIT.CC](https://nobit.cc)       | ES         | Publication of research articles on computer science and accounting. |
+| :link: | [MYLINA.CC](https://mylina.cc)     | EN, ES, PT | Online store for women's products.                                   |
   
 ## :star: Technologies used
 
