@@ -8,10 +8,10 @@
 
 <!-- https://www.webfx.com/tools/emoji-cheat-sheet/ -->
 
-|        | Project                            | Tongue | Description                                                          |
-| ------ | ---------------------------------- | ------ | -------------------------------------------------------------------- |
-| :link: | [WORDS.TRADE](https://words.trade) | EN     | Set of Dashboards with access to an API.                             |
-| :link: | [THESIS.LAT](https://thesis.lat)   | EN     | Automation of the thesis format of several universities.             |
+|        | Project                            | Tongue | Description                                              |
+| ------ | ---------------------------------- | ------ | -------------------------------------------------------- |
+| :link: | [WORDS.TRADE](https://words.trade) | EN     | Set of Dashboards with access to an API.                 |
+| :link: | [THESIS.LAT](https://thesis.lat)   | EN     | Automation of the thesis format of several universities. |
 
 ## :star: Technologies used
 
@@ -32,3 +32,9 @@
 | ![](https://icongr.am/simple/githubactions.svg?size=16&color=ff7700&colored=false) | GitHub Actions | Application | Automation               |
 | ![](https://icongr.am/simple/telegram.svg?size=16&color=ff7700&colored=false)      | Telegram       | Application | Login, bots              |
 | ![](https://icongr.am/simple/stripe.svg?size=16&color=ff7700&colored=false)        | Stripe         | API         | Payments, donations      |
+
+## :desktop_computer: Open Source Projects
+
+| Name                     | Description |
+| ------------------------ | ----------- |
+| ![](/moixllik/moixllik/) |
