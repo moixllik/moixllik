@@ -8,10 +8,10 @@
 
 <!-- https://www.webfx.com/tools/emoji-cheat-sheet/ -->
 
-|        | Project                            | Tongue | Description                                              |
-| ------ | ---------------------------------- | ------ | -------------------------------------------------------- |
-| :link: | [WORDS.TRADE](https://words.trade) | EN     | Set of Dashboards with access to an API.                 |
-| :link: | [THESIS.LAT](https://thesis.lat)   | EN     | Automation of the thesis format of several universities. |
+|        | Project                            | Tongue | Description                                             |
+| ------ | ---------------------------------- | ------ | ------------------------------------------------------- |
+| :link: | [WORDS.TRADE](https://words.trade) | EN     | Set of Dashboards with access to an API                 |
+| :link: | [THESIS.LAT](https://thesis.lat)   | EN     | Automation of the thesis format of several universities |
 
 ## :star: Technologies used
 
@@ -35,6 +35,11 @@
 
 ## :desktop_computer: Open Source Projects
 
-| Name                        | Description   |
-| --------------------------- | ------------- |
-| [Moix](https://moixllik.github.io/moixllik/) | Personal blog |
+| Name                                                    | Description                                         |
+| ------------------------------------------------------- | --------------------------------------------------- |
+| [/moixllik](https://moixllik.github.io/moixllik/)       | Personal blog                                       |
+| [/mila-dupont](https://moixllik.github.io/mila-dupont/) | DuPont Model for Investment Decisions               |
+| [/muchik](https://moixllik.github.io/muchik/)           | Dictionary of the Muchik / Mochica / Yunga language |
+| [/studio](https://moixllik.github.io/studio/)           | Examples of learning on various programming topics  |
+| [/btt](https://moixllik.github.io/btt/)                 | Blender Video Text Tracks                           |
+| [/btt-ai](https://moixllik.github.io/btt-ai/)           | Generative AI for BTT                               |
