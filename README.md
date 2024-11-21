@@ -35,6 +35,6 @@
 
 ## :desktop_computer: Open Source Projects
 
-| Name                     | Description |
-| ------------------------ | ----------- |
-| ![](/moixllik/moixllik/) |
+| Name                        | Description   |
+| --------------------------- | ------------- |
+| [Moix](/moixllik/moixllik/) | Personal blog |
