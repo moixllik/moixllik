@@ -1,18 +1,5 @@
 const view = document.getElementById("view");
 
-if (!("articles" in sessionStorage)) {
-  fetch("https://api.github.com/repos/moixllik/moixllik/contents/articles")
-    .then((r) => (r.status == 200 ? r.text() : false))
-    .then((d) => {
-      if (d) {
-        sessionStorage.setItem("articles", d);
-        location.hash = "#/";
-      } else {
-        location.hash = "#/e404";
-      }
-    });
-}
-
 window.onhashchange = (_) => {
   const uri = location.hash.slice(2);
   if (uri.length <= 1) {
@@ -39,5 +26,16 @@ window.onhashchange = (_) => {
       });
   }
 };
+
+if (!("articles" in sessionStorage)) {
+  fetch("https://api.github.com/repos/moixllik/moixllik/contents/articles")
+    .then((r) => (r.status == 200 ? r.text() : false))
+    .then((d) => {
+      if (d) {
+        sessionStorage.setItem("articles", d);
+      }
+      window.onhashchange();
+    });
+}
 
 window.onhashchange();
