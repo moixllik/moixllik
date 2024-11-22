@@ -1,0 +1,6 @@
+name = "moixllik"
+main = "src/index.js"
+compatibility_date = "2024-11-22"
+
+[triggers]
+crons = ["0 0 * * *"]
