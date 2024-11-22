@@ -15,7 +15,6 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         />
         <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
-        <script src="https://unpkg.com/htmx.org@2.0.3"></script>
         <style>
             :root {
                 --bg-color: hsl(36 39% 88%);
@@ -25,12 +24,10 @@
 
                 --color-lightGrey: hsl(36 45% 70%);
             }
-
             body {
                 background-color: var(--color-darkGrey);
                 font-family: "Montserrat", sans-serif;
             }
-
             main.container {
                 background-color: var(--bg-color);
             }
@@ -47,7 +44,12 @@
             </header>
 
             <section class="row">
-                <div class="col-8"></div>
+                <div id="view" class="col-8">
+                    <h2>Articles</h2>
+                    <ul id="list-articles">
+                        <li><a href="#/article">Article title</a></li>
+                    </ul>
+                </div>
                 <svg class="col-4" viewBox="0 0 7 8">
                     <rect x="0" y="0" width="1" height="1" fill="#0002" />
                     <rect x="0" y="6" width="1" height="1" fill="#0002" />
@@ -129,5 +131,13 @@
 
         document.getElementById("apu").setAttribute("fill", apu);
         document.getElementById("awki").setAttribute("fill", awki);
+
+        if (!("articles" in sessionStorage)) {
+            fetch(
+                "https://api.github.com/repos/moixllik/moixllik/contents/articles",
+            )
+                .then((r) => r.text())
+                .then((d) => sessionStorage.setItem("articles", d));
+        }
     </script>
 </html>
