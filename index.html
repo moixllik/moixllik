@@ -59,76 +59,128 @@
                 <div id="view" class="col-8">
                     <progress>Loading...</progress>
                 </div>
-                <svg class="col-4" viewBox="0 0 7 8">
-                    <rect x="0" y="0" width="1" height="1" fill="#0002" />
-                    <rect x="0" y="6" width="1" height="1" fill="#0002" />
-                    <rect x="6" y="0" width="1" height="1" fill="#0002" />
-                    <rect x="6" y="6" width="1" height="1" fill="#0002" />
+                <div class="col-4">
+                    <div style="position: sticky; top: 0">
+                        <svg viewBox="0 0 7 8">
+                            <rect
+                                x="0"
+                                y="0"
+                                width="1"
+                                height="1"
+                                fill="#0002"
+                            />
+                            <rect
+                                x="0"
+                                y="6"
+                                width="1"
+                                height="1"
+                                fill="#0002"
+                            />
+                            <rect
+                                x="6"
+                                y="0"
+                                width="1"
+                                height="1"
+                                fill="#0002"
+                            />
+                            <rect
+                                x="6"
+                                y="6"
+                                width="1"
+                                height="1"
+                                fill="#0002"
+                            />
 
-                    <rect x="3" y="0" width="1" height="7" fill="#0002" />
-                    <rect x="0" y="3" width="7" height="1" fill="#0002" />
+                            <rect
+                                x="3"
+                                y="0"
+                                width="1"
+                                height="7"
+                                fill="#0002"
+                            />
+                            <rect
+                                x="0"
+                                y="3"
+                                width="7"
+                                height="1"
+                                fill="#0002"
+                            />
 
-                    <rect x="2" y="1" width="3" height="5" fill="#0002" />
-                    <rect x="1" y="2" width="5" height="3" fill="#0002" />
+                            <rect
+                                x="2"
+                                y="1"
+                                width="3"
+                                height="5"
+                                fill="#0002"
+                            />
+                            <rect
+                                x="1"
+                                y="2"
+                                width="5"
+                                height="3"
+                                fill="#0002"
+                            />
 
-                    <rect
-                        id="t0"
-                        x="0"
-                        y="7"
-                        width="1"
-                        height="1"
-                        fill="#f007"
-                    />
-                    <rect
-                        id="t1"
-                        x="1"
-                        y="7"
-                        width="1"
-                        height="1"
-                        fill="#0f07"
-                    />
-                    <rect
-                        id="t2"
-                        x="2"
-                        y="7"
-                        width="1"
-                        height="1"
-                        fill="#00f7"
-                    />
-                    <rect
-                        id="t3"
-                        x="3"
-                        y="7"
-                        width="1"
-                        height="1"
-                        fill="#0ff7"
-                    />
-                    <rect
-                        id="t4"
-                        x="4"
-                        y="7"
-                        width="1"
-                        height="1"
-                        fill="#ff07"
-                    />
-                    <rect
-                        id="t5"
-                        x="5"
-                        y="7"
-                        width="1"
-                        height="1"
-                        fill="#f0f7"
-                    />
+                            <rect
+                                id="t0"
+                                x="0"
+                                y="7"
+                                width="1"
+                                height="1"
+                                fill="#f007"
+                            />
+                            <rect
+                                id="t1"
+                                x="1"
+                                y="7"
+                                width="1"
+                                height="1"
+                                fill="#0f07"
+                            />
+                            <rect
+                                id="t2"
+                                x="2"
+                                y="7"
+                                width="1"
+                                height="1"
+                                fill="#00f7"
+                            />
+                            <rect
+                                id="t3"
+                                x="3"
+                                y="7"
+                                width="1"
+                                height="1"
+                                fill="#0ff7"
+                            />
+                            <rect
+                                id="t4"
+                                x="4"
+                                y="7"
+                                width="1"
+                                height="1"
+                                fill="#ff07"
+                            />
+                            <rect
+                                id="t5"
+                                x="5"
+                                y="7"
+                                width="1"
+                                height="1"
+                                fill="#f0f7"
+                            />
 
-                    <rect id="apu" x="6" y="7" width="1" height="1" />
-                    <rect
-                        id="awki"
-                        x="6.25"
-                        y="7.25"
-                        width="0.5"
-                        height="0.5"
-                    />
-                </svg>
+                            <rect id="apu" x="6" y="7" width="1" height="1" />
+                            <rect
+                                id="awki"
+                                x="6.25"
+                                y="7.25"
+                                width="0.5"
+                                height="0.5"
+                            />
+                        </svg>
+                    </div>
+                </div>
             </section>
 
             <footer class="text-center">&copy; 2024</footer>
@@ -154,15 +206,17 @@
 
         window.onhashchange = (_) => {
             const uri = location.hash.slice(1);
-            if (uri == "/") {
+            if (uri.length <= 1) {
                 let articles = JSON.parse(sessionStorage.getItem("articles"));
-                articles = articles
-                    .map(
-                        (x) =>
-                            `<li><a href="#/${x.name}" style="text-transform:uppercase;">/${x.name}</a></li>`,
-                    )
-                    .join("");
-                view.innerHTML = `<h1>Articles</h1><ul>${articles}</ul>`;
+                if (articles) {
+                    articles = articles
+                        .map(
+                            (x) =>
+                                `<li><a href="#/${x.name}" style="text-transform:uppercase;">/${x.name}</a></li>`,
+                        )
+                        .join("");
+                    view.innerHTML = `<h1>Articles</h1><ul>${articles}</ul>`;
+                }
             } else {
                 fetch(`articles/${uri}/README.md`)
                     .then((r) => (r.status == 200 ? r.text() : false))
@@ -171,6 +225,7 @@
                             view.innerHTML = "<h1>404</h1><h2>Not found!</h2>";
                         } else {
                             view.innerHTML = marked.parse(m);
+                            MathJax.typeset();
                         }
                     });
             }
