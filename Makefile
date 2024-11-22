@@ -1,7 +1,10 @@
 run:
+	python3 -m http.server
+
+run-worker:
 	@npx wrangler dev --test-scheduled
 
-deploy:
+deploy-worker:
 	@npx wrangler deploy
 
 test-triggers:
