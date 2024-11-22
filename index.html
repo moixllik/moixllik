@@ -15,6 +15,18 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         />
         <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.0/marked.min.js"
+            integrity="sha512-/tpw1ej/DTEJDoX8qZM1YY8H9bz2+2T9nhojBmizu9JDVNvjXvgA3zfRjVF96V3bwK6Uf3eIqrYKIKRZx203iA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"
+            integrity="sha512-6FaAxxHuKuzaGHWnV00ftWqP3luSBRSopnNAA2RvQH1fOfnF/A1wOfiUWF7cLIOFcfb1dEhXwo5VG3DAisocRw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
         <style>
             :root {
                 --bg-color: hsl(36 39% 88%);
@@ -45,10 +57,7 @@
 
             <section class="row">
                 <div id="view" class="col-8">
-                    <h2>Articles</h2>
-                    <ul id="list-articles">
-                        <li><a href="#/article">Article title</a></li>
-                    </ul>
+                    <progress>Loading...</progress>
                 </div>
                 <svg class="col-4" viewBox="0 0 7 8">
                     <rect x="0" y="0" width="1" height="1" fill="#0002" />
@@ -126,6 +135,7 @@
         </main>
     </body>
     <script>
+        const view = document.getElementById("view");
         const apu = new Date().getUTCDay() % 2 == 0 ? "#fff" : "#0007";
         const awki = apu == "#fff" ? "#0007" : "#fff";
 
@@ -136,8 +146,36 @@
             fetch(
                 "https://api.github.com/repos/moixllik/moixllik/contents/articles",
             )
-                .then((r) => r.text())
-                .then((d) => sessionStorage.setItem("articles", d));
+                .then((r) => (r.status == 200 ? r.text() : false))
+                .then((d) =>
+                    d ? sessionStorage.setItem("articles", d) : false,
+                );
         }
+
+        window.onhashchange = (_) => {
+            const uri = location.hash.slice(1);
+            if (uri == "/") {
+                let articles = JSON.parse(sessionStorage.getItem("articles"));
+                articles = articles
+                    .map(
+                        (x) =>
+                            `<li><a href="#/${x.name}" style="text-transform:uppercase;">/${x.name}</a></li>`,
+                    )
+                    .join("");
+                view.innerHTML = `<h1>Articles</h1><ul>${articles}</ul>`;
+            } else {
+                fetch(`articles/${uri}/README.md`)
+                    .then((r) => (r.status == 200 ? r.text() : false))
+                    .then((m) => {
+                        if (!m) {
+                            view.innerHTML = "<h1>404</h1><h2>Not found!</h2>";
+                        } else {
+                            view.innerHTML = marked.parse(m);
+                        }
+                    });
+            }
+        };
+
+        window.onhashchange();
     </script>
 </html>

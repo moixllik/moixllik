@@ -1,0 +1,30 @@
+<svg width="320" height="568" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="black" />
+
+  <!-- Elements -->
+  <line x1="50" y1="284" x2="100" y2="235" stroke="gray" stroke-width="2" />
+  <circle cx="100" cy="235" r="10" fill="yellow" />
+  <text x="120" y="235" font-size="14" fill="gray">./search.html</text>
+
+  <line x1="50" y1="284" x2="100" y2="285" stroke="gray" stroke-width="2" />
+  <circle cx="100" cy="285" r="10" fill="yellow" />
+  <text x="120" y="290" font-size="14" fill="gray" style="font-weight:bold;">./images/search.png</text>
+
+  <line x1="50" y1="284" x2="100" y2="335" stroke="gray" stroke-width="2" />
+  <circle cx="100" cy="335" r="10" fill="yellow" />
+  <text x="120" y="340" font-size="14" fill="gray">./src/../search.cat</text>
+
+  <!-- More -->
+  <line x1="50" y1="284" x2="100" y2="175" stroke="gray" stroke-width="1" />
+  <circle cx="100" cy="175" r="5" fill="gray" />
+
+  <line x1="50" y1="284" x2="100" y2="395" stroke="gray" stroke-width="1" />
+  <circle cx="100" cy="395" r="5" fill="gray" />
+
+  <!-- Input -->
+  <rect x="140" y="55" width="8" height="20" fill="gray" />
+  <text x="110" y="70" font-family="Arial" font-size="16" fill="white" text-anchor="middle">search</text>
+
+  <!-- Alpha -->
+  <circle cx="50" cy="280" r="15" fill="orange" />
+</svg>
