@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap);
+@import url(https://unpkg.com/chota@latest);
+
+:root {
+    --bg-color: hsl(36 39% 88%);
+    --font-color: hsl(36 45% 15%);
+
+    --bg-secondary-color: #0001;
+
+    --color-lightGrey: hsl(36 45% 70%);
+}
+body {
+    background-color: var(--color-darkGrey);
+    font-family: "Montserrat", sans-serif;
+}
+main.container {
+    background-color: var(--bg-color);
+}
+
+main > footer {
+    padding-block: 2em;
+}
+
+.game {
+    position: sticky;
+    top: 0;
+    font-size: smaller;
+}

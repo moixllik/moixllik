@@ -6,15 +6,7 @@
 
         <title>MOIXLLIK</title>
 
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        />
-        <link rel="stylesheet" href="https://unpkg.com/chota@latest" />
+        <link rel="stylesheet" href="assets/style.css" />
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/marked/15.0.0/marked.min.js"
             integrity="sha512-/tpw1ej/DTEJDoX8qZM1YY8H9bz2+2T9nhojBmizu9JDVNvjXvgA3zfRjVF96V3bwK6Uf3eIqrYKIKRZx203iA=="
@@ -27,23 +19,6 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         ></script>
-        <style>
-            :root {
-                --bg-color: hsl(36 39% 88%);
-                --font-color: hsl(36 45% 15%);
-
-                --bg-secondary-color: #0001;
-
-                --color-lightGrey: hsl(36 45% 70%);
-            }
-            body {
-                background-color: var(--color-darkGrey);
-                font-family: "Montserrat", sans-serif;
-            }
-            main.container {
-                background-color: var(--bg-color);
-            }
-        </style>
     </head>
     <body>
         <main class="container">
@@ -60,177 +35,21 @@
                     <progress>Loading...</progress>
                 </div>
                 <div class="col-4">
-                    <div style="position: sticky; top: 0">
-                        <svg viewBox="0 0 7 8">
-                            <rect
-                                x="0"
-                                y="0"
-                                width="1"
-                                height="1"
-                                fill="#0002"
-                            />
-                            <rect
-                                x="0"
-                                y="6"
-                                width="1"
-                                height="1"
-                                fill="#0002"
-                            />
-                            <rect
-                                x="6"
-                                y="0"
-                                width="1"
-                                height="1"
-                                fill="#0002"
-                            />
-                            <rect
-                                x="6"
-                                y="6"
-                                width="1"
-                                height="1"
-                                fill="#0002"
-                            />
-
-                            <rect
-                                x="3"
-                                y="0"
-                                width="1"
-                                height="7"
-                                fill="#0002"
-                            />
-                            <rect
-                                x="0"
-                                y="3"
-                                width="7"
-                                height="1"
-                                fill="#0002"
-                            />
-
-                            <rect
-                                x="2"
-                                y="1"
-                                width="3"
-                                height="5"
-                                fill="#0002"
-                            />
-                            <rect
-                                x="1"
-                                y="2"
-                                width="5"
-                                height="3"
-                                fill="#0002"
-                            />
-
-                            <rect
-                                id="t0"
-                                x="0"
-                                y="7"
-                                width="1"
-                                height="1"
-                                fill="#f007"
-                            />
-                            <rect
-                                id="t1"
-                                x="1"
-                                y="7"
-                                width="1"
-                                height="1"
-                                fill="#0f07"
-                            />
-                            <rect
-                                id="t2"
-                                x="2"
-                                y="7"
-                                width="1"
-                                height="1"
-                                fill="#00f7"
-                            />
-                            <rect
-                                id="t3"
-                                x="3"
-                                y="7"
-                                width="1"
-                                height="1"
-                                fill="#0ff7"
-                            />
-                            <rect
-                                id="t4"
-                                x="4"
-                                y="7"
-                                width="1"
-                                height="1"
-                                fill="#ff07"
-                            />
-                            <rect
-                                id="t5"
-                                x="5"
-                                y="7"
-                                width="1"
-                                height="1"
-                                fill="#f0f7"
-                            />
-
-                            <rect id="apu" x="6" y="7" width="1" height="1" />
-                            <rect
-                                id="awki"
-                                x="6.25"
-                                y="7.25"
-                                width="0.5"
-                                height="0.5"
-                            />
-                        </svg>
+                    <div class="game">
+                        <canvas id="canvas" style="width: 100%"></canvas>
+                        <div id="message" class="text-center"></div>
                     </div>
                 </div>
             </section>
 
-            <footer class="text-center">&copy; 2024</footer>
+            <footer class="text-center">
+                &copy; 2024 | By
+                <a href="https://github.com/moixllik" target="_blank"
+                    >Irving M.</a
+                >
+            </footer>
         </main>
     </body>
-    <script>
-        const view = document.getElementById("view");
-        const apu = new Date().getUTCDay() % 2 == 0 ? "#fff" : "#0007";
-        const awki = apu == "#fff" ? "#0007" : "#fff";
-
-        document.getElementById("apu").setAttribute("fill", apu);
-        document.getElementById("awki").setAttribute("fill", awki);
-
-        if (!("articles" in sessionStorage)) {
-            fetch(
-                "https://api.github.com/repos/moixllik/moixllik/contents/articles",
-            )
-                .then((r) => (r.status == 200 ? r.text() : false))
-                .then((d) =>
-                    d ? sessionStorage.setItem("articles", d) : false,
-                );
-        }
-
-        window.onhashchange = (_) => {
-            const uri = location.hash.slice(1);
-            if (uri.length <= 1) {
-                let articles = JSON.parse(sessionStorage.getItem("articles"));
-                if (articles) {
-                    articles = articles
-                        .map(
-                            (x) =>
-                                `<li><a href="#/${x.name}" style="text-transform:uppercase;">/${x.name}</a></li>`,
-                        )
-                        .join("");
-                    view.innerHTML = `<h1>Articles</h1><ul>${articles}</ul>`;
-                }
-            } else {
-                fetch(`articles/${uri}/README.md`)
-                    .then((r) => (r.status == 200 ? r.text() : false))
-                    .then((m) => {
-                        if (!m) {
-                            view.innerHTML = "<h1>404</h1><h2>Not found!</h2>";
-                        } else {
-                            view.innerHTML = marked.parse(m);
-                            MathJax.typeset();
-                        }
-                    });
-            }
-        };
-
-        window.onhashchange();
-    </script>
+    <script src="assets/script.js"></script>
+    <script src="assets/game.js"></script>
 </html>
