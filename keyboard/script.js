@@ -1,4 +1,4 @@
-const keys = `
+const keys = `ñőűçė
 \`1234567890[]
 ',.pyfgcrl/=\\
 aoeuidhtns-
@@ -9,15 +9,11 @@ AOEUIDHTNS_
 >:QJKXBMWVZ
 ¸|˛˘¦˝
 àèìòù
-ãẽĩõũñ
+ãẽĩõũ
 áéíóú
 äëïöü
 ąęįǫų
-ăĕĭŏŭ
-őű
-ç
-ė
-`.replace("\n", "");
+ăĕĭŏŭ`.replace("\n", "");
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const box = window.innerHeight / 4;
