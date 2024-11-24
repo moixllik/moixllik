@@ -1,26 +1,23 @@
 const keys = `
-º1234567890'¡
-ª!"·$%&/()=?¿
-\\|@#~¦¬½⅛^\`˘
-¹²³¼⅝¾⅞⅜˝˛˙
-.,ñpyfgchl\`+ç
-:;ÑPYFGCHL^*Ç
-<>ł¶¥ŧđ¢ħ£[]}
-«»ŁŦĐ©Ħˇ±¸
-aoeuidrtns'
-AOEUIDRTNS"
-æø€åœð®þŋß{
-ÆØÅŒÐ™ÞŊ§~
-<-qjkxbmwvz
->_QJKXBMWVZ
-«­¤ĸ×µ
-»¯÷
-āēīōū
-ăĕĭŏŭ
-âêîôû
+\`1234567890[]
+',.pyfgcrl/=\\
+aoeuidhtns-
+<;qjkxbmwvz
+~!@#$%^&*(){}
+"<>PYFGCRL?+|
+AOEUIDHTNS_
+>:QJKXBMWVZ
+¸|˛˘¦˝
 àèìòù
+ãẽĩõũñ
 áéíóú
-äëïöü`.replaceAll("\n", "");
+äëïöü
+ąęįǫų
+ăĕĭŏŭ
+őű
+ç
+ė
+`.replace("\n", "");
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const box = window.innerHeight / 4;
@@ -33,8 +30,8 @@ canvas.height = window.innerHeight;
 function makeKeyboard() {
   img.src = "keyboard.png";
   img.onload = (_) => {
-    const h = box * 2;
-    const w = (780 / 270) * h;
+    const h = Math.min(200, box * 1.5);
+    const w = Math.min(590, (window.innerWidth / 200 / 1.3) * h);
     ctx.drawImage(img, (canvas.width - w) / 2, canvas.height - h, w, h);
   };
 }
