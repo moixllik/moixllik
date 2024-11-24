@@ -20,7 +20,7 @@ window.onhashchange = (_) => {
         if (!m) {
           view.innerHTML = "<h1>404</h1><h2>Not found!</h2>";
         } else {
-          view.innerHTML = marked.parse(m);
+          view.innerHTML = '<a href="#/">« Back</a>' + marked.parse(m);
           MathJax.typeset();
         }
       });

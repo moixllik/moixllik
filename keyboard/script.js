@@ -46,13 +46,20 @@ function start() {
   ctx.fillStyle = "#000";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
+  ctx.fillStyle = "#fff2";
+  ctx.fillRect((canvas.width - box) / 2, box, box, 5);
+
   ctx.fillStyle = "#f0f";
   ctx.font = box + "px Arial";
-  ctx.fillText(current, (canvas.width - box) / 2, box);
+  ctx.fillText(current, (canvas.width - box * 0.5) / 2, box);
 
   ctx.fillStyle = "#ff0";
   ctx.font = box / 4 + "px Arial";
-  ctx.fillText(current.charCodeAt(0), (canvas.width - box) / 2, box * 1.5);
+  ctx.fillText(
+    current.charCodeAt(0),
+    (canvas.width - box * 0.5) / 2,
+    box * 1.5,
+  );
 
   makeKeyboard();
 }
