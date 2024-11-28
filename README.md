@@ -10,8 +10,8 @@
 
 |        | Project                            | Tongue | Description                                             |
 | ------ | ---------------------------------- | ------ | ------------------------------------------------------- |
-| :link: | [WORDS.TRADE](https://words.trade) | EN     | Set of Dashboards with access to an API                 |
 | :link: | [THESIS.LAT](https://thesis.lat)   | EN     | Automation of the thesis format of several universities |
+| :link: | [WORDS.TRADE](https://words.trade) | EN     | Set of Dashboards with access to an API                 |
 | :link: | [MOIX.ONLINE](https://moix.online) | EN     | Online strategy game                                    |
 
 ## :star: Technologies used
