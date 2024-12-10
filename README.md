@@ -25,7 +25,7 @@
 | ![](https://icongr.am/simple/html5.svg?size=16&color=ff7700&colored=false)         | HTML           | Language    | Web                       |
 | ![](https://icongr.am/simple/sqlite.svg?size=16&color=ff7700&colored=false)        | SQL            | Language    | Database                  |
 | ![](https://icongr.am/simple/rust.svg?size=16&color=ff7700&colored=false)          | Rust           | Language    | Microservices             |
-| ![](https://icongr.am/simple/python.svg?size=16&color=ff7700&colored=false)        | Python         | Language    | Automation, web scraping  |
+| ![](https://icongr.am/simple/python.svg?size=16&color=ff7700&colored=false)        | Python         | Language    | Automation, web scraping, testing  |
 | ![](https://icongr.am/simple/latex.svg?size=16&color=ff7700&colored=false)         | LaTeX          | Language    | Formatted                 |
 | ![](https://icongr.am/simple/markdown.svg?size=16&color=ff7700&colored=false)      | Markdown       | Language    | Formatted                 |
 | ![](https://icongr.am/simple/gnubash.svg?size=16&color=ff7700&colored=false)       | Bash           | Language    | Automation                |
