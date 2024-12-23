@@ -8,11 +8,11 @@
 
 <!-- https://www.webfx.com/tools/emoji-cheat-sheet/ -->
 
-|        | Project                            | Tongue |
+|        | Project                            | Desc |
 | ------ | ---------------------------------- | ------ |
-| :link: | [THESIS.LAT](https://thesis.lat)   | EN     |
-| :link: | [WORDS.TRADE](https://words.trade) | EN     |
-| :link: | [MOIX.ONLINE](https://moix.online) | EN     |
+| :link: | [THESIS.LAT](https://thesis.lat)   | Templates |
+| :link: | [MOIX.ONLINE](https://moix.online) | Game |
+| :link: | [WORDS.TRADE](https://words.trade) | API |
 
 ## :star: Technologies used
 
