@@ -11,8 +11,6 @@
 |        | Project                            | Desc |
 | ------ | ---------------------------------- | ------ |
 | :link: | [THESIS.LAT](https://thesis.lat)   | Templates |
-| :link: | [MOIX.ONLINE](https://moix.online) | Game |
-| :link: | [WORDS.TRADE](https://words.trade) | API |
 
 ## :star: Technologies used
 
