@@ -10,7 +10,7 @@
 
 |        | Project                            | Desc |
 | ------ | ---------------------------------- | ------ |
-| :link: | [THESIS.LAT](https://thesis.lat)   | Templates |
+| :link: | [THESIS.LAT](https://thesis.lat)   | Thesis templates from various universities |
 
 ## :star: Technologies used
 
