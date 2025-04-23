@@ -81,7 +81,7 @@
             './home/' +
             (('es pt')
                 .split(' ')
-                .find(x => x === navigator.language.slice(0, 2)) ?? 'pt')
+                .find(x => x === navigator.language.slice(0, 2)) ?? 'en')
             + '.html')
             .then(x => x.text())
             .then(x => document.getElementById('view').innerHTML = x)
