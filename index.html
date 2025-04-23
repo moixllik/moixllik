@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moixllik - Developer</title>
+    <meta name="description" content="Developer: Irving Montalvo">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        a {
+            @apply text-blue-800 dark:text-lime-400;
+        }
+        h3 {
+            @apply text-2xl pt-10;
+        }
+        .icon {
+            @apply inline w-6 h-6;
+        }
+        ul {
+            @apply list-disc list-inside;
+        }
+        dt {
+            @apply pt-5 font-bold;
+        }
+        dd {
+            @apply pl-5;
+        }
+        code {
+            @apply text-gray-950 bg-blue-400 dark:bg-lime-100 rounded-xs px-1;
+        }
+        blockquote {
+            @apply border-l-3 border-blue-400 dark:border-lime-400 pl-5 italic text-gray-500 m-5;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-950 dark:bg-gray-950 dark:text-gray-100">
+    <main class="md:max-w-xl mx-auto">
+        <header class="text-center">
+            <h1 class="text-4xl text-blue-800 dark:text-lime-400">
+                <svg class="w-20 h-20 mx-auto">
+                    <use xlink:href="#icon-brand"></use>
+                </svg>
+                <a href="./">Moixllik</a>
+            </h1>
+            <h2 class="text-xl pb-5">Irving Montalvo</h2>
+            <section class="flex gap-5 justify-center">
+                <a href="https://x.com/moixllik" target="_blank">
+                    <svg class="icon">
+                        <use xlink:href="#icon-x"></use>
+                    </svg>
+                </a>
+                <a href="https://github.com/moixllik" target="_blank">
+                    <svg class="icon">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/@moixllik" target="_blank">
+                    <svg class="icon">
+                        <use xlink:href="#icon-youtube"></use>
+                    </svg>
+                </a>
+                <a href="https://www.tiktok.com/@moixllik" target="_blank">
+                    <svg class="icon">
+                        <use xlink:href="#icon-tiktok"></use>
+                    </svg>
+                </a>
+                <a href="https://www.twitch.tv/moixllik" target="_blank">
+                    <svg class="icon">
+                        <use xlink:href="#icon-twitch"></use>
+                    </svg>
+                </a>
+            </section>
+        </header>
+        <section id="view" class="p-5"></section>
+        <footer class="text-center py-10">&copy; 2025</footer>
+    </main>
+    <script>
+        fetch(
+            './home/' +
+            (('es pt')
+                .split(' ')
+                .find(x => x === navigator.language.slice(0, 2)) ?? 'es')
+            + '.html')
+            .then(x => x.text())
+            .then(x => document.getElementById('view').innerHTML = x)
+    </script>
+    <svg style="display:none;">
+        <symbol id="icon-brand" fill="currentColor" viewBox="3.5 3.5 9 9">
+            <path
+                d="M 5.4999836,5.4999837 V 6.5000244 H 4.4999999 V 9.4999756 H 5.4999836 V 10.500016 H 7.5000082 V 9.4999756 h 0.999984 V 10.500016 H 10.500016 V 9.4999756 H 11.5 V 6.5000244 H 10.500016 V 5.4999837 H 8.4999922 V 6.5000244 H 7.5000082 V 5.4999837 Z M 6.5000243,7.2000244 A 0.80000001,0.80000001 0 0 1 7.3000002,8 0.80000001,0.80000001 0 0 1 6.5000243,8.7999756 0.80000001,0.80000001 0 0 1 5.6999918,8 0.80000001,0.80000001 0 0 1 6.5000243,7.2000244 Z m 2.9999509,0 A 0.80000001,0.80000001 0 0 1 10.300008,8 0.80000001,0.80000001 0 0 1 9.4999752,8.7999756 0.80000001,0.80000001 0 0 1 8.7000002,8 0.80000001,0.80000001 0 0 1 9.4999752,7.2000244 Z">
+            </path>
+        </symbol>
+        <symbol id="icon-x" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+        </symbol>
+        <symbol id="icon-github" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+        </symbol>
+        <symbol id="icon-youtube" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+        </symbol>
+        <symbol id="icon-tiktok" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+        </symbol>
+        <symbol id="icon-twitch" fill="currentColor" viewBox="0 0 16 16">
+            <path
+                d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142z" />
+            <path d="M11.857 3.143h-1.143V6.57h1.143zm-3.143 0H7.571V6.57h1.143z" />
+        </symbol>
+    </svg>
+</body>
+
+</html>
