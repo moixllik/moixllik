@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="9"
+   width="9"
+   viewBox="0 0 9 9"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="favicon.png"
+   inkscape:export-xdpi="341.33334"
+   inkscape:export-ydpi="341.33334"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#f20000"
+     borderopacity="1"
+     inkscape:showpageshadow="false"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:cx="3.7027601"
+     inkscape:cy="6.2165605"
+     inkscape:window-width="1280"
+     inkscape:window-height="667"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4"
+     inkscape:zoom="14.71875" />
+  <rect
+     style="fill:#000000;stroke-width:0.601229"
+     id="rect4"
+     width="10.807673"
+     height="10.906084"
+     x="-0.90383673"
+     y="-0.95304203" />
+  <g
+     class="text-dark"
+     fill="currentColor"
+     id="g3"
+     style="fill:#ffffff"
+     transform="translate(-3.4999999,-3.4999999)">
+    <path
+       id="rect3"
+       d="M 5.4999836,5.4999837 V 6.5000244 H 4.4999999 V 9.4999756 H 5.4999836 V 10.500016 H 7.5000082 V 9.4999756 h 0.999984 V 10.500016 H 10.500016 V 9.4999756 H 11.5 V 6.5000244 H 10.500016 V 5.4999837 H 8.4999922 V 6.5000244 H 7.5000082 V 5.4999837 Z M 6.5000243,7.2000244 A 0.80000001,0.80000001 0 0 1 7.3000002,8 0.80000001,0.80000001 0 0 1 6.5000243,8.7999756 0.80000001,0.80000001 0 0 1 5.6999918,8 0.80000001,0.80000001 0 0 1 6.5000243,7.2000244 Z m 2.9999509,0 A 0.80000001,0.80000001 0 0 1 10.300008,8 0.80000001,0.80000001 0 0 1 9.4999752,8.7999756 0.80000001,0.80000001 0 0 1 8.7000002,8 0.80000001,0.80000001 0 0 1 9.4999752,7.2000244 Z"
+       style="fill:#ffffff" />
+  </g>
+</svg>
