@@ -1,4 +1,4 @@
-![image](./image.svg)
+<img src="./image.svg" alt="image" width="100%" />
 
 ## I'm Irving Montalvo 👋
 
