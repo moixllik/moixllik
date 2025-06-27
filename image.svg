@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
-     inkscape:zoom="3.3110117"
-     inkscape:cx="117.93978"
-     inkscape:cy="45.001351"
+     inkscape:zoom="10.109645"
+     inkscape:cx="122.75406"
+     inkscape:cy="70.22996"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
      inkscape:window-x="0"
@@ -82,9 +82,10 @@
          r="29.268293" />
     </g>
     <path
-       style="fill:#b3b3b3;stroke:#808080;stroke-width:1;stroke-dasharray:1, 1;stroke-dashoffset:0;marker-end:url(#Dot)"
-       d="M 186.34788,10.87281 109.63417,59.498431"
-       id="path5" />
+       style="fill:#b3b3b3;stroke:#808080;stroke-width:0.5;stroke-dasharray:0.5, 0.5;stroke-dashoffset:0;marker-end:url(#Dot)"
+       d="M 186.34788,10.87281 110.02983,59.498431"
+       id="path5"
+       sodipodi:nodetypes="cc" />
     <g
        id="g4"
        transform="matrix(0.56074768,0,0,0.56074768,125.27573,-20.649825)">
