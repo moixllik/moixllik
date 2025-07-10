@@ -11,6 +11,6 @@ MOIXLLIK := Calculāre -> Computāre -> Creāre -> Irving Montalvo
 
 ### Programming Languages
 
-| Tier 1 | Tier 2 | Tier 3 |
-| ------ | ------ | ------ |
-| Python, PHP, JavaScript, CSS, HTML | Rust, C/C++, Go, Nim | Haskell, Lisp, Julia, R |
+| Prototype | Velocity | Research | Database |
+| --------- | -------- | -------- | -------- |
+| Python, JavaScript, CSS, HTML | Rust, C/C++, Go, Nim | Haskell, Lisp, Julia | SQL, CSV, XML, JSON, Vectors |
