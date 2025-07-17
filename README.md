@@ -13,4 +13,4 @@ MOIXLLIK := Calculāre -> Computāre -> Creāre -> Irving Montalvo
 
 | Prototype | Velocity | Research | Database |
 | --------- | -------- | -------- | -------- |
-| Python, JavaScript, CSS, HTML | Rust, C/C++, Go, Nim | Haskell, Lisp, Julia | SQL, CSV, XML, JSON, Vectors |
+| Python, JavaScript, CSS, HTML, V | Rust, C/C++, Go, Nim | Haskell, Lisp, Julia | SQL, CSV, XML, JSON, Vectors |
