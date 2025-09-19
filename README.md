@@ -1,4 +1,4 @@
-<img src="./image.svg" alt="image" width="100%" />
+<img src="./image.svg" alt="image" width="100%" style="aspect-ratio: 2/1;max-width:100%;" />
 
 ## I'm Irving Montalvo 👋
 
